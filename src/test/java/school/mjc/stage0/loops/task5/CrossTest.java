@@ -7,7 +7,8 @@ class CrossTest extends BaseIOTest {
 
     @Test
     void printCross() {
-        String expected = "  8  \n" +
+        String expected =
+                "  8  \n" +
                 "  8  \n" +
                 "88888\n" +
                 "  8  \n" +
@@ -22,7 +23,8 @@ class CrossTest extends BaseIOTest {
 
     @Test
     void printCrossPrintsMinCross() {
-        String expected = " 8 \n" +
+        String expected =
+                " 8 \n" +
                 "888\n" +
                 " 8 \n";
 

@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 class RectangleTest extends BaseIOTest {
     @Test
     void printRectangleFrom8sPrintsRectangleDifHeightAndLength() {
-        String expected = "88888\n" +
+        String expected =
+                "88888\n" +
                 "8   8\n" +
                 "8   8\n" +
                 "8   8\n" +
@@ -22,7 +23,8 @@ class RectangleTest extends BaseIOTest {
 
     @Test
     void printRectangleFrom8sPrintsRectangleSameHeightAndLength() {
-        String expected = "88888\n" +
+        String expected =
+                "88888\n" +
                 "8   8\n" +
                 "8   8\n" +
                 "8   8\n" +
@@ -37,7 +39,8 @@ class RectangleTest extends BaseIOTest {
 
     @Test
     void printRectangleFrom8sPrintsWideRectangle() {
-        String expected = "888888\n" +
+        String expected =
+                "888888\n" +
                 "8    8\n" +
                 "8    8\n" +
                 "8    8\n" +

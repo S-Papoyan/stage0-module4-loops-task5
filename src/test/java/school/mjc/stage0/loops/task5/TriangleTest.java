@@ -9,7 +9,8 @@ class TriangleTest extends BaseIOTest {
 
     @Test
     void printTriangle() {
-        String expected = """
+        String expected =
+                """
                 8   \s
                 88  \s
                 888 \s
@@ -17,7 +18,8 @@ class TriangleTest extends BaseIOTest {
                 88888
                 """;
 
-        String expected2 = """
+        String expected2 =
+                """
                 8
                 88
                 888
@@ -37,13 +39,15 @@ class TriangleTest extends BaseIOTest {
 
     @Test
     void printTrianglePrintsMin() {
-        String expected = """
+        String expected =
+                """
                 8 \s
                 88\s
                 888
                 """;
 
-        String expected2 = """
+        String expected2 =
+                """
                 8
                 88
                 888
